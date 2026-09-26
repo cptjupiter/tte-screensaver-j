@@ -1,0 +1,18 @@
+{
+  "name": "Jupiter",
+  "text": "JUPITER",
+  "font": "ansi_shadow",
+  "background": "#0b0d17",
+  "font_size": 18,
+  "colors": ["#e8dcc0", "#e3a857", "#c88b3a", "#b1511f", "#e8dcc0"],
+  "direction": "vertical",
+  "effect_settings": {
+    "Beams": {
+      "beam_gradient_stops": ["#ffffff", "#e3a857", "#b1511f"]
+    },
+    "Matrix": {
+      "rain_color_gradient": ["#e3a857", "#6b3a14"],
+      "highlight_color": "#fff3d6"
+    }
+  }
+}

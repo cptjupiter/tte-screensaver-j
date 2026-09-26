@@ -1,3 +1,4 @@
 terminaltexteffects
 pygame-ce
 pyinstaller
+pyfiglet

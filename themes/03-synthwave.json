@@ -1,0 +1,15 @@
+{
+  "name": "Synthwave",
+  "text": "MARXER",
+  "background": "#12001f",
+  "font_size": 18,
+  "colors": ["#ff2a6d", "#d300c5", "#05d9e8"],
+  "direction": "diagonal",
+  "effects": ["SynthGrid", "Beams", "Waves", "Expand", "VHSTape", "LaserEtch", "Rings"],
+  "effect_settings": {
+    "SynthGrid": {
+      "grid_gradient_stops": ["#ff2a6d", "#05d9e8"],
+      "text_gradient_stops": ["#ff2a6d", "#d300c5", "#05d9e8"]
+    }
+  }
+}

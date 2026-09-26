@@ -97,6 +97,18 @@ build.bat
 
 ---
 
+## Spielplatz (zum Experimentieren)
+
+```bash
+python run.py /play      # oder: python playground.py
+```
+
+Läuft im Fenster statt als Bildschirmschoner: Effekte und Themen per Tastatur wechseln
+(Taste **H** zeigt alle Tasten). Themen sind JSON-Dateien im Ordner `themes/` und werden
+beim Speichern automatisch neu geladen – siehe [themes/README.md](themes/README.md).
+
+---
+
 ## Command Line
 
 | Flag | Action |

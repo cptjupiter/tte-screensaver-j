@@ -1,0 +1,15 @@
+{
+  "name": "Terminal grün",
+  "ascii_file": "terminal-gruen.txt",
+  "background": "#000000",
+  "font_size": 20,
+  "colors": ["#33ff66", "#0f7a2e"],
+  "direction": "radial",
+  "effects": ["Matrix", "Decrypt", "Print", "BinaryPath", "ErrorCorrect"],
+  "effect_settings": {
+    "Decrypt": {
+      "ciphertext_colors": ["#0f7a2e", "#33ff66"],
+      "typing_speed": 4
+    }
+  }
+}

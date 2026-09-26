@@ -5,6 +5,7 @@ Windows screensaver command-line arguments:
   /s - Run the screensaver in fullscreen mode
   /c - Show the configuration dialog
   /p <hwnd> - Preview mode (not implemented, just exits)
+  /play - Spielplatz: Fenster mit Tastensteuerung und Themen aus themes/
   (no args) - Show configuration dialog
 """
 
@@ -19,6 +20,11 @@ def main() -> None:
         # No arguments - show config dialog
         from .config_dialog import show_config_dialog
         show_config_dialog()
+
+    elif "/play" in args or "-play" in args:
+        # Spielplatz zum Experimentieren (Fenster, Tastensteuerung, Themen)
+        from .playground import run_playground
+        run_playground()
 
     elif "/s" in args or "-s" in args:
         # Run screensaver in fullscreen
